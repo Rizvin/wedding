@@ -18,7 +18,7 @@ export default function QRCodeSection() {
 
         <div className="relative mx-auto mt-10 w-fit">
           <motion.img
-            src="/assets/invitation-frame.svg"
+            src="/wedding/assets/invitation-frame.svg"
             alt=""
             aria-hidden="true"
             className="absolute -inset-8 h-[calc(100%+4rem)] w-[calc(100%+4rem)]"

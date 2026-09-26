@@ -6,7 +6,7 @@ export default function Invitation() {
     <section className="relative overflow-hidden bg-[#294637] px-6 py-32 text-white">
       <PatternOverlay dark />
       <motion.img
-        src="/assets/islamic-arch.svg"
+        src="/wedding/assets/islamic-arch.svg"
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute left-1/2 top-8 w-64 -translate-x-1/2 opacity-20"

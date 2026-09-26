@@ -4,7 +4,7 @@ export function FloralCorners() {
   return (
     <>
       <motion.img
-        src="/assets/floral-corner-left.svg"
+        src="/wedding/assets/floral-corner-left.svg"
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute left-0 top-0 w-36 opacity-80 sm:w-52"
@@ -14,7 +14,7 @@ export function FloralCorners() {
         transition={{ duration: 1 }}
       />
       <motion.img
-        src="/assets/floral-corner-right.svg"
+        src="/wedding/assets/floral-corner-right.svg"
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute right-0 top-0 w-36 opacity-80 sm:w-52"
@@ -35,7 +35,7 @@ export function PatternOverlay({ dark = false }: { dark?: boolean }) {
         dark ? "opacity-[0.055]" : "opacity-[0.045]"
       }`}
       style={{
-        backgroundImage: "url('/assets/islamic-pattern.svg')",
+        backgroundImage: "url('/wedding/assets/islamic-pattern.svg')",
         backgroundSize: "180px 180px",
       }}
     />
@@ -45,7 +45,7 @@ export function PatternOverlay({ dark = false }: { dark?: boolean }) {
 export function GoldDivider() {
   return (
     <motion.img
-      src="/assets/floral-divider.svg"
+      src="/wedding/assets/floral-divider.svg"
       alt=""
       aria-hidden="true"
       className="mx-auto h-12 w-40"
@@ -70,7 +70,7 @@ export function FloatingStars() {
       {stars.map((star, index) => (
         <motion.img
           key={index}
-          src="/assets/gold-star.svg"
+          src="/wedding/assets/gold-star.svg"
           alt=""
           aria-hidden="true"
           className="pointer-events-none absolute h-3 w-3"

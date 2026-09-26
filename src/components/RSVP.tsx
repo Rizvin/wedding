@@ -85,7 +85,7 @@ export default function RSVP() {
 
       {/* Decorative floating petals */}
       <motion.img
-        src="/assets/petal.svg"
+        src="/wedding/assets/petal.svg"
         alt=""
         aria-hidden
         className="pointer-events-none absolute left-6 top-6 h-8 w-8 opacity-60"

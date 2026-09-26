@@ -20,7 +20,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center opacity-[0.22] filter saturate-105"
         style={{
           y: imageY,
-          backgroundImage: "url('/images/hero.png')",
+          backgroundImage: "url('/wedding/images/hero.png')",
         }}
       />
 
@@ -35,7 +35,7 @@ export default function Hero() {
       >
         <div>
           <motion.img
-            src="/assets/crescent-stars.svg"
+            src="/wedding/assets/crescent-stars.svg"
             alt=""
             aria-hidden="true"
             className="mx-auto mb-7 h-14 w-14"

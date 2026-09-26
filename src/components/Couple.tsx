@@ -50,7 +50,7 @@ export default function Couple() {
         <div className="grid items-center gap-16 md:grid-cols-[1fr_auto_1fr]">
           <Person {...weddingData.groom} side="left" />
           <motion.img
-            src="/assets/wedding-rings.svg"
+            src="/wedding/assets/wedding-rings.svg"
             alt=""
             aria-hidden="true"
             className="mx-auto hidden h-20 w-20 md:block"

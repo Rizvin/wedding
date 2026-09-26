@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-[#f8f5ed] px-6 py-24 text-center">
       <motion.img
-        src="/assets/crescent-stars.svg"
+        src="/wedding/assets/crescent-stars.svg"
         alt=""
         aria-hidden="true"
         className="mx-auto mb-7 h-12 w-12"
