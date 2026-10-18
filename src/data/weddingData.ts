@@ -45,5 +45,5 @@ export const weddingData = {
     "/wedding/images/gallery/07.webp",
     "/wedding/images/gallery/08.webp",
   ],
-  music: "/wedding/music/wedding.mp3",
+  music: "/wedding/music/wedding1.mp3",
 };

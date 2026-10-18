@@ -4,9 +4,7 @@ import Invitation from "./components/Invitation";
 import Countdown from "./components/Countdown";
 import EventDetails from "./components/EventDetails";
 import Timeline from "./components/Timeline";
-import Venue from "./components/Venue";
-import Gallery from "./components/Gallery";
-import QRCodeSection from "./components/QRCodeSection";
+
 import RSVP from "./components/RSVP";
 import Footer from "./components/Footer";
 import MusicToggle from "./components/MusicToggle";
