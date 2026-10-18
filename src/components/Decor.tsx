@@ -73,9 +73,9 @@ export function FloatingStars() {
           src="/wedding/assets/gold-star.svg"
           alt=""
           aria-hidden="true"
-          className="pointer-events-none absolute h-3 w-3"
+          className="pointer-events-none absolute h-3 w-3 "
           style={{ left: star.left, top: star.top }}
-          animate={{ y: [0, -10, 0], opacity: [0.25, 0.75, 0.25] }}
+          animate={{ y: [0, -10, 0], opacity: [0.25, 1, 0.25] }}
           transition={{
             duration: 3.5,
             repeat: Infinity,

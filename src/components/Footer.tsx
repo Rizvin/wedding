@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="my-3 font-display text-3xl text-[#b19255]">&</div>
       <h2 className="font-display text-5xl text-[#294637]">{weddingData.bride.name}</h2>
       <div className="mt-7"><GoldDivider /></div>
-      <p className="mt-7 text-xs text-[#999]">With love, our families</p>
+      <p className="mt-7 text-xs text-[#999]">With love, our families and friends</p>
     </footer>
   );
 }

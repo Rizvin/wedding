@@ -27,15 +27,15 @@ export default function App() {
 
       <EventDetails title="Reception" {...weddingData.reception} image={weddingData.reception.image} />
 
-      <Venue
+      {/* <Venue
         name={weddingData.reception.venue}
         address={weddingData.reception.address}
         mapsUrl={weddingData.reception.mapsUrl}
         image={weddingData.reception.image}
-      />
+      /> */}
 
-      <Gallery />
-      <QRCodeSection />
+      {/* <Gallery />
+      <QRCodeSection /> */}
       <RSVP />
       <Footer />
       <MusicToggle />

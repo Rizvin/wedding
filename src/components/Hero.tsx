@@ -17,7 +17,7 @@ export default function Hero() {
       <FloatingStars />
 
       <motion.div
-        className="absolute inset-0 bg-cover bg-center opacity-[0.22] filter saturate-105"
+        className="absolute inset-0 bg-cover bg-center opacity-[1] filter saturate-105"
         style={{
           y: imageY,
           backgroundImage: "url('/wedding/images/hero.png')",
@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-[#f8f5ed]/40 via-[#f8f5ed]/80 to-[#f8f5ed]" />
 
       <motion.div
-        style={{ y: contentY }}
+        style={{ y:contentY }}
         initial={{ opacity: 0, y: 35 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.1, ease: "easeOut" }}
@@ -44,8 +44,8 @@ export default function Hero() {
             transition={{ delay: 0.25, duration: 0.8 }}
           />
 
-          <p className="mb-7 text-[11px] tracking-[0.34em] text-[#8d7549] uppercase">
-            Bismillahir Rahmanir Raheem
+          <p className="mb-7 text-[24px] tracking-[0.34em] text-[#8d7549] uppercase">
+            ﷽
           </p>
 
           <p className="mb-5 text-sm text-[#6d746f]">

@@ -3,8 +3,8 @@ import { weddingData } from "../data/weddingData";
 
 export default function Timeline() {
   const events = [
-    { title: "Nikkah", time: weddingData.nikkah.time, venue: weddingData.nikkah.venue, side: "left" },
-    { title: "Reception", time: weddingData.reception.time, venue: weddingData.reception.venue, side: "right" },
+    { title: "Nikkah", time: weddingData.nikkah.time, venue: weddingData.nikkah.venue, address: weddingData.nikkah.address, side: "left" },
+    { title: "Reception", time: weddingData.reception.time, venue: weddingData.reception.venue, address:weddingData.reception.address, side: "right" },
   ];
 
   return (
@@ -31,6 +31,7 @@ export default function Timeline() {
                 <h3 className="font-display text-3xl">{event.title}</h3>
                 <p className="mt-2 text-[#d7bf8b]">{event.time}</p>
                 <p className="mt-1 text-sm text-white/60">{event.venue}</p>
+                <p className="mt-1 text-sm text-white/60">{event.address}</p>
               </div>
             </motion.div>
           ))}
